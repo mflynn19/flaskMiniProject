@@ -1,8 +1,8 @@
 html{
     text-align: center;
-    background-color: pink;
+    background-color: silver;
     color: blue;
-    font-family: 'Carter One', cursive;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 img{
@@ -11,6 +11,6 @@ img{
 }
 
 input[type=text] {
-  border: 2px solid blue;
+  border: 1px double lightblue;
   border-radius: 4px;
 }
