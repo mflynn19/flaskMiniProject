@@ -14,9 +14,9 @@ def bill():
         return "You didn't fill out the form."
     else:
         userData = dict(request.form)
-        total = float(userData['total'][0])
-        tip = float(userData['tip'][0])
-        people = float(userData['people'][0])
+        total = float(userData['total'])
+        tip = float(userData['tip'])
+        people = float(userData['people'])
         finalTotal = model.totalBill(total,tip)
         finalTip = model.tip(total,tip)
         finalSplit = model.split(total,tip,people)
